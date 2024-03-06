@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "workshop"
+version = "0.1.0"
+description = ""
+authors = ["Lucas E. Gomes <lucasedugomes@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+matplotlib = "^3.8.3"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.1.post1"
+openpyxl = "^3.1.2"
+pyarrow = "^15.0.0"
+plotly = "^5.19.0"
+
+
+[tool.poetry.group.dev.dependencies]
+yapf = "^0.40.2"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
