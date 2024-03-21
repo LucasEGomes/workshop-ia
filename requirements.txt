@@ -1,0 +1,12 @@
+fastapi
+jupyter
+matplotlib
+mlflow
+numpy
+openpyxl
+pandas
+plotly
+pyarrow
+python-multipart
+scikit-learn
+uvicorn[standard]
